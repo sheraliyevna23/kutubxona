@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kirish — Mening Kutubxonam</title>
+<link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<div class="auth-layout">
+
+  <!-- ══════════ CHAP PANEL ══════════ -->
+  <div class="auth-panel">
+
+    <!-- Ambient glow blobs -->
+    <div class="glow-blob glow-1"></div>
+    <div class="glow-blob glow-2"></div>
+
+    <!-- Twinkling particles -->
+    <div class="particle" style="--x:18%;--y:12%;--s:3px;--d:0s"></div>
+    <div class="particle" style="--x:72%;--y:22%;--s:4px;--d:1.4s"></div>
+    <div class="particle" style="--x:38%;--y:42%;--s:2px;--d:2.8s"></div>
+    <div class="particle" style="--x:84%;--y:55%;--s:3px;--d:0.6s"></div>
+    <div class="particle" style="--x:12%;--y:68%;--s:2px;--d:3.5s"></div>
+    <div class="particle" style="--x:56%;--y:18%;--s:4px;--d:1.9s"></div>
+    <div class="particle" style="--x:90%;--y:38%;--s:2px;--d:4.2s"></div>
+    <div class="particle" style="--x:28%;--y:78%;--s:3px;--d:2.1s"></div>
+
+    <!-- Branding -->
+    <div class="panel-content">
+      <div class="panel-badge">✦ Shaxsiy kutubxona</div>
+      <div class="panel-icon">
+        <svg width="82" height="70" viewBox="0 0 64 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Soya -->
+          <path d="M33 52C33 52 9 49 9 15V13C9 11.3 10.3 10 12 10H33V52Z" fill="#060402" opacity=".45"/>
+          <path d="M33 52C33 52 57 49 57 15V13C57 11.3 55.7 10 54 10H33V52Z" fill="#040301" opacity=".45"/>
+          <!-- Chap muqova -->
+          <path d="M33 50C33 50 11 47 11 15V13C11 11.3 12.3 10 14 10H33V50Z" fill="#2A1C0C" stroke="rgba(210,168,52,.65)" stroke-width="1.2" stroke-linejoin="round"/>
+          <!-- O'ng muqova -->
+          <path d="M33 50C33 50 55 47 55 15V13C55 11.3 53.7 10 52 10H33V50Z" fill="#1C1208" stroke="rgba(210,168,52,.65)" stroke-width="1.2" stroke-linejoin="round"/>
+          <!-- Chap sahifa chiziqlari -->
+          <line x1="15" y1="18" x2="30" y2="17.1" stroke="#D8B040" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+          <line x1="15" y1="23" x2="30" y2="22.2" stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".55"/>
+          <line x1="15" y1="28" x2="26" y2="27.3" stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".40"/>
+          <line x1="15" y1="33" x2="30" y2="32.3" stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".28"/>
+          <line x1="15" y1="38" x2="24" y2="37.5" stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".18"/>
+          <line x1="15" y1="43" x2="30" y2="42.5" stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".11"/>
+          <!-- O'ng sahifa chiziqlari -->
+          <line x1="36" y1="17.1" x2="51" y2="18"  stroke="#D8B040" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+          <line x1="36" y1="22.2" x2="51" y2="23"  stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".55"/>
+          <line x1="36" y1="27.3" x2="49" y2="28"  stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".40"/>
+          <line x1="36" y1="32.3" x2="51" y2="33"  stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".28"/>
+          <line x1="36" y1="37.5" x2="47" y2="38"  stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".18"/>
+          <line x1="36" y1="42.5" x2="51" y2="43"  stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".11"/>
+          <!-- Umurtqa -->
+          <line x1="33" y1="10" x2="33" y2="50" stroke="#C0940C" stroke-width="3"   stroke-linecap="round" opacity=".4"/>
+          <line x1="33" y1="10" x2="33" y2="50" stroke="#F0D860" stroke-width="1.8" stroke-linecap="round"/>
+          <!-- Pastki yoy -->
+          <path d="M12 46Q33 52 54 46" stroke="rgba(210,168,52,.22)" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+          <!-- Xatchacha -->
+          <path d="M48 10L48 24L45 21L42 24L42 10Z" fill="#9E2E18" opacity=".95"/>
+          <line x1="45" y1="24" x2="45" y2="29" stroke="#7A2010" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
+          <!-- Bezak yulduzi -->
+          <path d="M21 43.5L21.7 41.4L22.4 43.5L24.5 44.2L22.4 44.9L21.7 47L21 44.9L18.9 44.2Z" fill="rgba(210,168,52,.28)"/>
+        </svg>
+      </div>
+      <h1 class="panel-title">Mening<br>Kutubxonam</h1>
+      <p class="panel-quote" id="rotatingQuote">"Kitob o'qigan odam hech qachon yolg'iz bo'lmaydi"</p>
+
+      <div class="panel-divider">
+        <span></span>
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>
+        <span></span>
+      </div>
+
+      <ul class="panel-features">
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#70D49A" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+          Barcha kitoblaringizni bir joyda saqlang
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#70D49A" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+          Mavjud yoki kerakli deb belgilang
+        </li>
+        <li>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#70D49A" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+          Tez qidiring, filtrlang, kuzating
+        </li>
+      </ul>
+    </div>
+
+    <!-- Kitob javoni -->
+    <div class="bookshelf">
+      <div class="shelf-lamp"></div>
+
+      <!-- Yuqori javon -->
+      <div class="shelf-row">
+        <div class="bk" style="--h:88px;--bg:#6B2818;--w:18px"></div>
+        <div class="bk" style="--h:72px;--bg:#1C5C38;--w:14px"></div>
+        <div class="bk" style="--h:96px;--bg:#5A1F2C;--w:21px"></div>
+        <div class="bk" style="--h:68px;--bg:#8C6018;--w:12px"></div>
+        <div class="bk" style="--h:84px;--bg:#1C3A5C;--w:22px"></div>
+        <div class="bk" style="--h:76px;--bg:#364018;--w:16px"></div>
+        <div class="bk" style="--h:90px;--bg:#3A1C5C;--w:15px"></div>
+        <div class="bk" style="--h:70px;--bg:#8C3E18;--w:13px"></div>
+        <div class="bk" style="--h:92px;--bg:#0E4A44;--w:19px"></div>
+        <div class="bk" style="--h:64px;--bg:#8A6C38;--w:11px"></div>
+        <div class="bk" style="--h:80px;--bg:#3C2210;--w:17px"></div>
+        <div class="bk" style="--h:94px;--bg:#284A2C;--w:21px"></div>
+        <div class="bk" style="--h:66px;--bg:#5C1818;--w:13px"></div>
+        <div class="bk" style="--h:78px;--bg:#183C5C;--w:16px"></div>
+        <div class="bk" style="--h:86px;--bg:#4A1C40;--w:14px"></div>
+        <div class="bk" style="--h:74px;--bg:#2C4818;--w:18px"></div>
+      </div>
+      <div class="shelf-plank"></div>
+
+      <!-- Pastki javon -->
+      <div class="shelf-row">
+        <div class="bk" style="--h:76px;--bg:#681E18;--w:16px"></div>
+        <div class="bk" style="--h:96px;--bg:#1A4228;--w:22px"></div>
+        <div class="bk" style="--h:70px;--bg:#8C4A28;--w:14px"></div>
+        <div class="bk" style="--h:84px;--bg:#2A3A5C;--w:18px"></div>
+        <div class="bk" style="--h:88px;--bg:#5C1A2C;--w:20px"></div>
+        <div class="bk" style="--h:66px;--bg:#2E4020;--w:13px"></div>
+        <div class="bk" style="--h:80px;--bg:#1E2A5C;--w:17px"></div>
+        <div class="bk" style="--h:74px;--bg:#8C5A1C;--w:15px"></div>
+        <div class="bk" style="--h:90px;--bg:#0E4A2A;--w:21px"></div>
+        <div class="bk" style="--h:62px;--bg:#3C1C44;--w:12px"></div>
+        <div class="bk" style="--h:86px;--bg:#6A3018;--w:19px"></div>
+        <div class="bk" style="--h:78px;--bg:#1A3826;--w:16px"></div>
+        <div class="bk" style="--h:68px;--bg:#7C2A2A;--w:14px"></div>
+        <div class="bk" style="--h:82px;--bg:#1C4A3A;--w:18px"></div>
+        <div class="bk" style="--h:72px;--bg:#582A0E;--w:15px"></div>
+        <div class="bk" style="--h:94px;--bg:#162E4A;--w:20px"></div>
+      </div>
+      <div class="shelf-plank shelf-base"></div>
+    </div>
+
+  </div><!-- /auth-panel -->
+
+  <!-- ══════════ O'NG PANEL ══════════ -->
+  <div class="auth-right">
+    <div class="auth-card">
+
+      <!-- Faqat mobileda ko'rinadi -->
+      <div class="auth-logo-sm">
+        <svg width="30" height="25" viewBox="0 0 64 54" fill="none">
+          <path d="M33 50C33 50 11 47 11 15V13C11 11.3 12.3 10 14 10H33V50Z" fill="#2A1C0C" stroke="rgba(210,168,52,.62)" stroke-width="1.2" stroke-linejoin="round"/>
+          <path d="M33 50C33 50 55 47 55 15V13C55 11.3 53.7 10 52 10H33V50Z" fill="#1C1208" stroke="rgba(210,168,52,.62)" stroke-width="1.2" stroke-linejoin="round"/>
+          <line x1="15" y1="18" x2="30" y2="17.1" stroke="#D8B040" stroke-width="1.5" stroke-linecap="round" opacity=".8"/>
+          <line x1="15" y1="26" x2="28" y2="25.3" stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".42"/>
+          <line x1="36" y1="17.1" x2="51" y2="18"  stroke="#D8B040" stroke-width="1.5" stroke-linecap="round" opacity=".8"/>
+          <line x1="36" y1="25.3" x2="49" y2="26"  stroke="#D8B040" stroke-width="1.1" stroke-linecap="round" opacity=".42"/>
+          <line x1="33" y1="10" x2="33" y2="50" stroke="#C0940C" stroke-width="3"   stroke-linecap="round" opacity=".4"/>
+          <line x1="33" y1="10" x2="33" y2="50" stroke="#F0D860" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M48 10L48 22L45 19.5L42 22L42 10Z" fill="#9E2E18" opacity=".92"/>
+        </svg>
+        Mening Kutubxonam
+      </div>
+
+      <!-- Tablar -->
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login">Kirish</button>
+        <button class="auth-tab" data-tab="register">Ro'yxatdan o'tish</button>
+        <div class="tab-slider" id="tabSlider"></div>
+      </div>
+
+      <!-- ── KIRISH FORMASI ── -->
+      <form id="loginForm" class="auth-form active" novalidate>
+
+        <div class="field">
+          <label class="field-label">Foydalanuvchi nomi</label>
+          <div class="input-wrap">
+            <svg class="input-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <input type="text" name="username" placeholder="muhabbat123" required autocomplete="username" spellcheck="false">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label">Parol</label>
+          <div class="input-wrap">
+            <svg class="input-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <input type="password" name="password" placeholder="••••••••" required autocomplete="current-password">
+            <button type="button" class="eye-btn" aria-label="Ko'rish">
+              <svg class="eye-open"   width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-closed" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="error-box" id="loginError"></div>
+
+        <button type="submit" class="submit-btn">
+          <span class="btn-text">Kirish</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+
+        <p class="form-note">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Ma'lumotlar qurilmangizda xavfsiz saqlanadi
+        </p>
+      </form>
+
+      <!-- ── RO'YXATDAN O'TISH FORMASI ── -->
+      <form id="registerForm" class="auth-form" novalidate>
+
+        <div class="field">
+          <label class="field-label">Ismingiz</label>
+          <div class="input-wrap">
+            <svg class="input-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <input type="text" name="displayName" placeholder="Muhabbat" required autocomplete="name">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label">Foydalanuvchi nomi</label>
+          <div class="input-wrap">
+            <svg class="input-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <input type="text" name="username" placeholder="muhabbat123" required autocomplete="username" spellcheck="false">
+          </div>
+          <div class="field-hint">3–20 ta lotin harfi, raqam yoki _</div>
+        </div>
+
+        <div class="field">
+          <label class="field-label">Parol</label>
+          <div class="input-wrap">
+            <svg class="input-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            <input type="password" name="password" placeholder="Kamida 6 ta belgi" required autocomplete="new-password">
+            <button type="button" class="eye-btn" aria-label="Ko'rish">
+              <svg class="eye-open"   width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-closed" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="error-box" id="registerError"></div>
+
+        <button type="submit" class="submit-btn">
+          <span class="btn-text">Ro'yxatdan o'tish</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+
+        <p class="form-note">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Ma'lumotlar qurilmangizda xavfsiz saqlanadi
+        </p>
+      </form>
+
+    </div><!-- /auth-card -->
+  </div><!-- /auth-right -->
+
+</div><!-- /auth-layout -->
+
+<script src="auth.js"></script>
+</body>
+</html>
